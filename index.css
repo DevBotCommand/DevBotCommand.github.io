@@ -18,15 +18,24 @@ html {
     text-align: center;
     color: black;
 }
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 .myBDiv{
-    position: absolute;
-    top: 75px; right: 50px;
+    position: sticky;
+    top: auto; bottom: auto;
     background-color: rgba(4, 117, 23, 0.562);
     border-style: solid;
     border-radius: 10px;
     border-color: gray;
     color: white;
     text-decoration: none;
+    text-align: center;
+    margin-top: 1em;
+    padding: .25em .75em;   
 }
 .menue {
     height: 500px;
