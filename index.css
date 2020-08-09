@@ -3,13 +3,26 @@
 }
 #title {
     padding: 5pt 10pt 10pt 10pt;
-    text-align: center;
-    color: darkgreen;  
-    text-shadow: darkblue 0pt 0pt 10pt;
     background-image: url('https://images-ext-1.discordapp.net/external/Hsk-tMG5twodc6eZCLZE1uS6aWNvdKqqJmV6ksay4CA/https/cdn.discordapp.com/avatars/725511833833832469/61cb9652c4dac6cbc71ab754425d99cd.png');
+    text-align: center;
+    color: black;
+    outline: groove black;  
+    text-shadow: darkblue 0pt 0pt 10pt;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
 }
 #text {
     text-align: center;
     color: black;
-    
+}
+.myBDiv{
+    position: absolute;
+    top: 200px; left: 50px;
+    background-color: black;
+    border-style: solid;
+    border-color: gray;
+}
+.myB {
+    color: white;
+    text-decoration: none;
 }
