@@ -1,5 +1,7 @@
 html {
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 #imo {
     color: chartreuse;
@@ -25,8 +27,8 @@ html {
     align-items: center;
 }
 .myBDiv{
-    position: sticky;
-    top: auto; bottom: auto;
+    position: absolute;
+    top: 5em; bottom: auto;
     background-color: rgba(4, 117, 23, 0.562);
     border-style: solid;
     border-radius: 10px;
@@ -34,20 +36,48 @@ html {
     color: white;
     text-decoration: none;
     text-align: center;
-    margin-top: 1em;
-    padding: .25em .75em;   
+    margin-top: auto;
+    padding: .25em .75em; 
+    align-items: center;    
+}
+.myBDivi {
+    position: absolute;
+    top: 8em; bottom: auto;
+    background-color: rgba(4, 117, 23, 0.562);
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gray;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: auto;
+    padding: .25em .75em;
+    align-items: center;   
+}
+.myBDivo {
+    position: absolute;
+    top: 11em; bottom: auto;
+    background-color: rgba(4, 117, 23, 0.562);
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gray;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: auto;
+    padding: .25em .75em;
+    align-items: center;   
 }
 .menue {
-    height: 500px;
-    width: 200px;
     position: absolute;
     top: 200px; right: 10px;
     background-color: rgb(26, 26, 26);
     border-color: gray;
     border-style: solid;
     border-radius: 5px;
+    padding: .5em 3em 10em 1em;
 }
 .metitle {
     text-align: center;
-    margin: 2px 2px 2px 2px;
+    padding-top: -5em;
 }
