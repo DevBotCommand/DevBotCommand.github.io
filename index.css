@@ -8,9 +8,9 @@ html {
 }
 #title {
     padding: 5pt 10pt 10pt 10pt;
-    background-image: url('https://images-ext-1.discordapp.net/external/Hsk-tMG5twodc6eZCLZE1uS6aWNvdKqqJmV6ksay4CA/https/cdn.discordapp.com/avatars/725511833833832469/61cb9652c4dac6cbc71ab754425d99cd.png');
+    background-color: rgb(12, 12, 12);
     text-align: center;
-    color: black;
+    color: white;
     outline: groove gray;  
     text-shadow: darkblue 0pt 0pt 10pt;
     text-decoration-style: wavy;
@@ -104,15 +104,42 @@ html {
 }
 .menue {
     position: absolute;
-    top: 12em; right: .5em;
+    top: 1em; right: 0em;
     background-color: rgb(12, 12, 12);
     border-color: gray;
     border-style: solid;
     border-radius: 5px;
     padding: .5em 3em 16em 1em;
+    margin: .5em .5em .5em .5em;
 }
 .metitle {
     text-align: center;
     padding-top: -5em;
     color: rgb(255, 255, 255);
+}
+.TitleS {
+    background-color: rgb(2, 2, 2);
+    border: solid;
+    border-color: black;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.Text_Field {
+position: absolute;
+top: 1em; right: 15em; bottom: auto; left: .5em;
+margin: .1em;
+padding: 1em;
+border: solid;
+border-color: rgb(121, 121, 121);
+border-radius: 2em;
+background-color: rgb(12, 12, 12);
+text-align: left;
+text-shadow: 0em 0em .5em red;
+color: white;
+}
+#contain {
+    position: relative;
+    bottom: 0em;
+    margin: 0em;
+    padding: 0em;
 }
