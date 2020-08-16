@@ -1,5 +1,5 @@
 html {
-    background-image: url('./images/Cadoo.png');
+    background-image: image('./images/Cadoo.png');
     margin: 0;
     padding: 0;
 }
@@ -8,7 +8,6 @@ html {
 }
 #title {
     padding: 5pt 10pt 10pt 10pt;
-    background-color: rgb(12, 12, 12);
     text-align: center;
     color: white;  
     text-shadow: darkblue 0pt 0pt 10pt;
@@ -115,7 +114,7 @@ html {
     color: rgb(255, 255, 255);
 }
 .TitleS {
-    background-color: rgb(2, 2, 2);
+    background-color: rgba(12, 12, 12, 0.5);
     border-radius: 3em;
     padding: .2em;
     margin-left: 5em;
@@ -129,7 +128,7 @@ top: 1em; right: 15em; bottom: auto; left: 0em;
 margin: .1em .1em .1em 0em;
 padding: 1em;
 border-radius: 2em;
-background-color: rgb(12, 12, 12);
+background-color: rgba(12, 12, 12, 0.5);
 text-align: left;
 color: white;
 }
