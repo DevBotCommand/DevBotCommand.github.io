@@ -1,5 +1,5 @@
 html {
-    background-color: black;
+    background-color: rgb(24, 24, 24);
     margin: 0;
     padding: 0;
 }
@@ -26,10 +26,10 @@ html {
     justify-content: space-around;
     align-items: center;
 }
-.myBDiv{
+.menuB1{
     position: absolute;
     top: 5em; bottom: auto;
-    background-color: rgba(4, 117, 23, 0.562);
+    background-color: rgb(0, 0, 0);
     border-style: solid;
     border-radius: 10px;
     border-color: gray;
@@ -38,12 +38,17 @@ html {
     text-align: center;
     margin-top: auto;
     padding: .25em .75em; 
-    align-items: center;    
+    align-items: center;  
 }
-.myBDivi {
+.menuB1:hover{
+    position: absolute;
+    top: 4.8em; bottom: auto;
+    text-shadow: 0em 0em .5em white; 
+}
+.menueB2 {
     position: absolute;
     top: 8em; bottom: auto;
-    background-color: rgba(4, 117, 23, 0.562);
+    background-color: rgb(0, 0, 0);
     border-style: solid;
     border-radius: 10px;
     border-color: gray;
@@ -54,10 +59,15 @@ html {
     padding: .25em .75em;
     align-items: center;   
 }
-.myBDivo {
+.menueB2:hover {
+    position: absolute;
+    top: 7.8em; bottom: auto;
+    text-shadow: 0em 0em .5em white;   
+}
+.menuB3 {
     position: absolute;
     top: 11em; bottom: auto;
-    background-color: rgba(4, 117, 23, 0.562);
+    background-color: rgb(0, 0, 0);
     border-style: solid;
     border-radius: 10px;
     border-color: gray;
@@ -67,15 +77,39 @@ html {
     margin-top: auto;
     padding: .25em .75em;
     align-items: center;   
+}
+.menuB3:hover {
+    position: absolute;
+    top: 10.8em; bottom: auto;
+    text-shadow: 0em 0em .5em white;   
+}
+.menuB4{
+    position: absolute;
+    top: 14em; bottom: auto;
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gray;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: auto;
+    padding: .25em .75em;
+    align-items: center;   
+}
+.menuB4:hover{
+    position: absolute;
+    top: 13.8em; bottom: auto;
+    text-shadow: 0em 0em .5em white;   
 }
 .menue {
     position: absolute;
-    top: 200px; right: 10px;
-    background-color: rgb(26, 26, 26);
+    top: 12em; right: .5em;
+    background-color: rgb(12, 12, 12);
     border-color: gray;
     border-style: solid;
     border-radius: 5px;
-    padding: .5em 3em 10em 1em;
+    padding: .5em 3em 16em 1em;
 }
 .metitle {
     text-align: center;
