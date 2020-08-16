@@ -1,6 +1,5 @@
 html {
     background-image: url('./images/Cadoo1.png');
-    background: center;
     margin: 0;
     padding: 0;
 }
@@ -197,4 +196,12 @@ color: white;
     color: white;
     text-align: center;
     text-decoration: none;
+}
+.cat5 {
+    position: absolute;
+    top: 0em; bottom: 0em; left: 34em; right: auto;
+    padding: .75em 2em auto 2em;
+    text-align: center;
+    text-decoration: none;
+    color: white;
 }
