@@ -152,9 +152,8 @@ color: white;
 }
 .cat {
     position: absolute;
-    top: 0em; bottom: 0em; left: 0em; right: auto;
-    height: 3em;
-    width: 3em;
+    top: 0em; bottom: 0em; left: 0em; right: 0em;
+    padding: 1em;
     background-image: url('./images/pfp.png');
 }
 .cat1 {
