@@ -103,7 +103,7 @@ html {
 .menue {
     position: absolute;
     top: 1em; right: 0em;
-    background-color: rgba(12, 12, 12, 0.548);
+    background-color: rgba(12, 12, 12, 0.699);
     border-radius: 5px;
     padding: .0em 3em 15em 1em;
     margin: .5em 0em .5em .5em;
@@ -114,7 +114,7 @@ html {
     color: rgb(255, 255, 255);
 }
 .TitleS {
-    background-color: rgba(12, 12, 12, 0.5);
+    background-color: rgba(12, 12, 12, 0.699);
     border-radius: 3em;
     padding: .2em;
     margin-left: 5em;
@@ -128,7 +128,7 @@ top: 1em; right: 15em; bottom: auto; left: 0em;
 margin: .1em .1em .1em 0em;
 padding: 1em;
 border-radius: 2em;
-background-color: rgba(12, 12, 12, 0.5);
+background-color: rgba(12, 12, 12, 0.699);
 text-align: left;
 color: white;
 }
@@ -137,7 +137,7 @@ color: white;
     bottom: 0em;
     margin: 0em;
     padding: 0em;
-    background-color: rgba(12, 12, 12, 0.185);
+    background-color: rgba(12, 12, 12, 0.699);
 }
 .linkz {
     text-decoration-style: none;
