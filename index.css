@@ -103,7 +103,9 @@ html {
 .menue {
     position: absolute;
     top: 1em; right: 0em;
-    background-color: rgba(12, 12, 12, 0.699);
+    background-color: rgba(12, 12, 12, 0.938);
+    border-style: solid;
+    border-color: rgba(214, 0, 0, 0.274);
     border-radius: 5px;
     padding: .0em 3em 15em 1em;
     margin: .5em 0em .5em .5em;
@@ -112,10 +114,13 @@ html {
     text-align: center;
     padding-top: -5em;
     color: rgb(255, 255, 255);
+    text-shadow: 0 0 .5em red;
 }
 .TitleS {
     background-color: rgba(12, 12, 12, 0.699);
     border-radius: 3em;
+    border-style: double;
+    border-color: rgba(0, 11, 161, 0.404);
     padding: .2em;
     margin-left: 5em;
     margin-right: 5em;
@@ -124,11 +129,13 @@ html {
 }
 .Text_Field {
 position: absolute;
-top: 1em; right: 15em; bottom: auto; left: 0em;
+top: 1em; right: 15em; bottom: auto; left: 1em;
 margin: .1em .1em .1em 0em;
 padding: 1em;
 border-radius: 2em;
-background-color: rgba(12, 12, 12, 0.699);
+border-style: double;
+background-color: rgba(12, 12, 12, 0.877);
+border-color: rgba(0, 11, 161, 0.404);
 text-align: left;
 color: white;
 }
@@ -137,10 +144,11 @@ color: white;
     bottom: 0em;
     margin: 0em;
     padding: 0em;
-    background-color: rgba(12, 12, 12, 0.699);
+    background-color: rgb(12, 12, 12);
 }
 .linkz {
-    text-decoration-style: none;
+    text-emphasis: none;
+    text-decoration-line: none;
     color: red;
 }
 #cata {
@@ -205,21 +213,39 @@ color: white;
     color: white;
 }
 .cat1:hover {
-    text-shadow: 0em 0em .5em white;
+    text-shadow: 0em 0em .5em rgba(255, 0, 0, 0.342);
 }
 .cat2:hover {
-    text-shadow: 0em 0em .5em white;
+    text-shadow: 0em 0em .5em rgba(255, 0, 0, 0.342);
 }
 .cat3:hover {
-    text-shadow: 0em 0em .5em white;
+    text-shadow: 0em 0em .5em rgba(255, 0, 0, 0.342);
 }
 .cat4:hover {
-    text-shadow: 0em 0em .5em white;
+    text-shadow: 0em 0em .5em rgba(255, 0, 0, 0.342);
 }
 .cat5:hover {
-    text-shadow: 0em 0em .5em white;
+    text-shadow: 0em 0em .5em rgba(255, 0, 0, 0.342);
 }
 #cont {
     position: absolute;
     bottom: 0em; top: 12em;
+}
+.imexamples {
+    position: absolute;
+    top: 22em; left: 10em; right: 10em; bottom: auto;
+    color: white;
+}
+.imgz {
+    border-radius: 1em;
+    border-style: double;
+    border-color: rgba(236, 0, 0, 0.39)
+}
+.endofpage {
+    position: absolute;
+    top: 92em; left: 10em; right: 10em; bottom: 0;
+    color: rgb(116, 116, 116);
+}
+.highblue {
+    text-shadow: 0 0 .5em blue;
 }
