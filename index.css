@@ -233,8 +233,14 @@ color: white;
 }
 .imexamples {
     position: absolute;
-    top: 22em; left: 10em; right: 10em; bottom: auto;
+    top: 22em; left: 5em; right: 5em; bottom: auto;
     color: white;
+    background-color: rgb(3, 3, 3);
+    text-align: center;
+    border-radius: 1em;
+    border-style: double;
+    border-color: rgba(214, 0, 0, 0.274);
+    margin: 1em;
 }
 .imgz {
     border-radius: 1em;
@@ -245,6 +251,7 @@ color: white;
     position: absolute;
     top: 92em; left: 10em; right: 10em; bottom: 0;
     color: rgb(116, 116, 116);
+    padding: 1em;
 }
 .highblue {
     text-shadow: 0 0 .5em blue;
